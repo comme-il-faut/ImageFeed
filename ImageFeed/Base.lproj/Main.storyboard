@@ -29,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nlj-gL-F0g">
-                                                    <rect key="frame" x="20" y="11" width="353" height="223"/>
+                                                    <rect key="frame" x="16" y="4" width="361" height="237"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="353" id="24t-CD-3yt"/>
                                                     </constraints>
@@ -40,7 +40,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27 августа 2022" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knP-5U-L50" userLabel="Date Label">
-                                                    <rect key="frame" x="28" y="210" width="102" height="16"/>
+                                                    <rect key="frame" x="24" y="217" width="102" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="ZxS-94-YpU"/>
                                                     </constraints>
@@ -49,10 +49,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4z-Fk-dXB">
-                                                    <rect key="frame" x="331" y="11" width="42" height="42"/>
+                                                    <rect key="frame" x="335" y="4" width="42" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="42" id="RLO-pr-N3F"/>
-                                                        <constraint firstAttribute="width" secondItem="k4z-Fk-dXB" secondAttribute="height" multiplier="1:1" id="p3Y-dj-7lr"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="like_button_on"/>
@@ -61,13 +60,13 @@
                                             <color key="backgroundColor" red="0.1019607843" green="0.1058823529" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="k4z-Fk-dXB" firstAttribute="leading" secondItem="Nlj-gL-F0g" secondAttribute="trailing" constant="-42" id="60J-db-IcS"/>
-                                                <constraint firstItem="Nlj-gL-F0g" firstAttribute="top" secondItem="Xhl-fy-ZWg" secondAttribute="topMargin" id="7Tw-2g-vGu"/>
-                                                <constraint firstItem="Nlj-gL-F0g" firstAttribute="trailing" secondItem="Xhl-fy-ZWg" secondAttribute="trailingMargin" id="E1Q-hm-sca"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="knP-5U-L50" secondAttribute="trailing" constant="20" symbolic="YES" id="RNW-6B-KB3"/>
                                                 <constraint firstItem="k4z-Fk-dXB" firstAttribute="trailing" secondItem="Nlj-gL-F0g" secondAttribute="trailing" id="U94-RS-VkI"/>
+                                                <constraint firstItem="Nlj-gL-F0g" firstAttribute="top" secondItem="Xhl-fy-ZWg" secondAttribute="top" constant="4" id="bet-mn-NNJ"/>
                                                 <constraint firstItem="knP-5U-L50" firstAttribute="leading" secondItem="Nlj-gL-F0g" secondAttribute="leading" constant="8" id="bfc-Wx-tQ2"/>
-                                                <constraint firstItem="Nlj-gL-F0g" firstAttribute="bottom" secondItem="Xhl-fy-ZWg" secondAttribute="bottomMargin" id="mrZ-f0-zBU"/>
-                                                <constraint firstItem="Nlj-gL-F0g" firstAttribute="leading" secondItem="Xhl-fy-ZWg" secondAttribute="leadingMargin" id="svS-ig-3s1"/>
+                                                <constraint firstAttribute="trailing" secondItem="Nlj-gL-F0g" secondAttribute="trailing" constant="16" id="cPe-XP-Hcf"/>
+                                                <constraint firstItem="Nlj-gL-F0g" firstAttribute="leading" secondItem="Xhl-fy-ZWg" secondAttribute="leading" constant="16" id="dGE-HM-jm3"/>
+                                                <constraint firstAttribute="bottom" secondItem="Nlj-gL-F0g" secondAttribute="bottom" constant="4" id="rMr-55-lvX"/>
                                                 <constraint firstItem="Nlj-gL-F0g" firstAttribute="bottom" secondItem="knP-5U-L50" secondAttribute="bottom" constant="8" id="v7L-J1-9Qf"/>
                                                 <constraint firstItem="k4z-Fk-dXB" firstAttribute="top" secondItem="Nlj-gL-F0g" secondAttribute="top" id="zxv-Np-rfT"/>
                                             </constraints>

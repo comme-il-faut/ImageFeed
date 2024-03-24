@@ -14,6 +14,8 @@
 		E9094A252B97457D00FF42B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9094A242B97457D00FF42B8 /* Assets.xcassets */; };
 		E9094A282B97457D00FF42B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9094A262B97457D00FF42B8 /* LaunchScreen.storyboard */; };
 		E921C19C2BA0541100167635 /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921C19B2BA0541100167635 /* ImagesListCell.swift */; };
+		E92996182BB058540050BD1B /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E92996172BB058540050BD1B /* SF-Pro.ttf */; };
+		E929961A2BB0598B0050BD1B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92996192BB0598B0050BD1B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E9094A272B97457D00FF42B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9094A292B97457D00FF42B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E921C19B2BA0541100167635 /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
+		E92996172BB058540050BD1B /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		E92996192BB0598B0050BD1B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,12 @@
 		E9094A1A2B97457B00FF42B8 /* ImageFeed */ = {
 			isa = PBXGroup;
 			children = (
+				E92996162BB058380050BD1B /* Resources */,
 				E921C19D2BA0544600167635 /* ImagesList */,
+				E92996192BB0598B0050BD1B /* ProfileViewController.swift */,
 				E9094A1B2B97457B00FF42B8 /* AppDelegate.swift */,
 				E9094A1D2B97457B00FF42B8 /* SceneDelegate.swift */,
 				E9094A212B97457B00FF42B8 /* Main.storyboard */,
-				E9094A242B97457D00FF42B8 /* Assets.xcassets */,
 				E9094A262B97457D00FF42B8 /* LaunchScreen.storyboard */,
 				E9094A292B97457D00FF42B8 /* Info.plist */,
 			);
@@ -76,6 +81,15 @@
 				E921C19B2BA0541100167635 /* ImagesListCell.swift */,
 			);
 			path = ImagesList;
+			sourceTree = "<group>";
+		};
+		E92996162BB058380050BD1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9094A242B97457D00FF42B8 /* Assets.xcassets */,
+				E92996172BB058540050BD1B /* SF-Pro.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9094A282B97457D00FF42B8 /* LaunchScreen.storyboard in Resources */,
+				E92996182BB058540050BD1B /* SF-Pro.ttf in Resources */,
 				E9094A252B97457D00FF42B8 /* Assets.xcassets in Resources */,
 				E9094A232B97457B00FF42B8 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +166,7 @@
 			files = (
 				E9094A202B97457B00FF42B8 /* ImagesListViewController.swift in Sources */,
 				E921C19C2BA0541100167635 /* ImagesListCell.swift in Sources */,
+				E929961A2BB0598B0050BD1B /* ProfileViewController.swift in Sources */,
 				E9094A1C2B97457B00FF42B8 /* AppDelegate.swift in Sources */,
 				E9094A1E2B97457B00FF42B8 /* SceneDelegate.swift in Sources */,
 			);

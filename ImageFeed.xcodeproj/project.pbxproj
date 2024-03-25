@@ -64,7 +64,7 @@
 			children = (
 				E92996162BB058380050BD1B /* Resources */,
 				E921C19D2BA0544600167635 /* ImagesList */,
-				E92996192BB0598B0050BD1B /* ProfileViewController.swift */,
+				E929AE8F2BB1744B005D8415 /* Profile */,
 				E9094A1B2B97457B00FF42B8 /* AppDelegate.swift */,
 				E9094A1D2B97457B00FF42B8 /* SceneDelegate.swift */,
 				E9094A212B97457B00FF42B8 /* Main.storyboard */,
@@ -90,6 +90,14 @@
 				E92996172BB058540050BD1B /* SF-Pro.ttf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E929AE8F2BB1744B005D8415 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E92996192BB0598B0050BD1B /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

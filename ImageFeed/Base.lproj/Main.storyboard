@@ -190,7 +190,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="tab_profile_active" id="xau-Jm-A3P"/>
                     <connections>
-                        <outlet property="logoutButton" destination="Rfh-Ai-cYo" id="rBK-c8-rRx"/>
+                        <outlet property="logoutButton" destination="Rfh-Ai-cYo" id="z63-Cp-7kn"/>
                         <outlet property="userEmail" destination="S0m-jF-4aI" id="ceR-Bt-nEE"/>
                         <outlet property="userName" destination="N2Z-cv-pfn" id="bWC-Vs-Y1H"/>
                         <outlet property="userPhoto" destination="5a1-4L-Tgj" id="H29-Nt-ZS0"/>

@@ -84,7 +84,7 @@ extension WebViewViewController: WKNavigationDelegate {
         decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
     ) {
         if let code = code(from: navigationAction) {
-            //TODO: process code
+            delegate?.webViewViewController(self, didAuthenticateWithCode: code)
             decisionHandler(.cancel)
         } else {
             decisionHandler(.allow)
@@ -98,14 +98,15 @@ extension WebViewViewController: WKNavigationDelegate {
             urlComponents.path == "/oauth/authorize/native",
             let items = urlComponents.queryItems,
             let codeItem = items.first(where: { $0.name == "code" })
-        { return codeItem.value }
-        else { return nil }
+        {
+            return codeItem.value
+        } else {
+            return nil
+        }
     }
 }
 
 protocol WebViewViewControllerDelegate: AnyObject {
-    
     func webViewViewController(_ vc: WebViewViewController, didAuthenticateWithCode code: String)
     func webViewViewControllerDidCancel(_ vc: WebViewViewController)
-    
 }

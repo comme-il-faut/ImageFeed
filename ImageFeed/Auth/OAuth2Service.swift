@@ -17,7 +17,8 @@ class OAuth2Service {
         set { OAuth2TokenStorage().token = newValue }
     }
     
-    init() {}
+    private init() {}
+    
     
     private enum NetworkError: Error {
         case httpStatusCode(Int)
